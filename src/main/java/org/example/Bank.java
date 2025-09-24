@@ -11,6 +11,17 @@ import static java.io.FileDescriptor.in;
 
 public class Bank implements Serializable {
 
+    private static Bank instance;
+
+    private Bank (){}
+
+    public static Bank getInstance(){
+        if (instance == null){
+             instance = new Bank();
+        }
+        return instance;
+    }
+
     public void addCustomer(Customer customer) {
         String sql = "INSERT INTO Customers (phoneNumber, name) VALUES (?, ?)";
         ConnectionDataBase.executeQ(sql, customer.getPhoneNumber(), customer.getName());
@@ -60,5 +71,10 @@ public class Bank implements Serializable {
             e.printStackTrace();
             return new Bank();
         }
+    }
+
+    private Object readResolve() {
+        instance = this;
+        return instance;
     }
  }

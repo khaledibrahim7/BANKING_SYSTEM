@@ -27,7 +27,7 @@ public class Main {
         customer2.addAccount(account3);
         customer3.addAccount(account1);
 
-        Bank bank = new Bank();
+        Bank bank = Bank.getInstance();
         bank.addAccount(account4);
         bank.addAccount(account1);
         ;
