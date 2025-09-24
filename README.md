@@ -1,12 +1,12 @@
-# 🏦 Bank Management System (Java SE Project)
+#  Bank Management System (Java SE Project)
 
-## 📌 Overview
+# Overview
 This project is a **Java SE application** that simulates a simple banking system.  
 It demonstrates key concepts of **Object-Oriented Programming (OOP)**, **Collections Framework**, **File I/O (Serialization)**, **Multithreading & Synchronization**, and **Database Integration (SQL Server with JDBC)**.
 
 ---
 
-## 🚀 Features
+# Features
 - Create and manage **Customers** and their **Accounts**.
 - Perform banking operations:
   - Deposit
@@ -22,7 +22,7 @@ It demonstrates key concepts of **Object-Oriented Programming (OOP)**, **Collect
 
 ---
 
-## 🛠️ Technologies Used
+# Technologies Used
 - **Java SE 7+**
 - **Collections API** (`LinkedHashMap`, `LinkedHashSet`)
 - **Serialization** (`ObjectOutputStream`, `ObjectInputStream`)
