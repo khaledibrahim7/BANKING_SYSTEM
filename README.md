@@ -30,6 +30,4 @@ It demonstrates key concepts of **Object-Oriented Programming (OOP)**, **Collect
 - **JDBC** (SQL Server Database Connection)
 - **Exception Handling** (Custom Exceptions)
 
----
 
-## 📂 Project Structure
